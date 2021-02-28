@@ -55,7 +55,7 @@ dataset = df_fs.copy()
 st.sidebar.header("Predict Class Variable Using Random Forest Classifier")
 st.sidebar.subheader("Traffic Violation:")
 
-varx = st.sidebar.selectbox("Select Veriable To Predict:",("Gender","Race","Contributed To Accident","Alcohol","Description"))
+varx = st.sidebar.selectbox("Select Veriable To Predict:",("Gender","Race","Contributed To Accident","Alcohol"))
 year = st.sidebar.selectbox("Select Year:",(2001,2006,2010))
 lat = st.sidebar.slider('Latitude', min_value=-94.610988, max_value=40.111822)
 lon = st.sidebar.slider('Longitude', min_value=-77.732495, max_value=41.543160)
